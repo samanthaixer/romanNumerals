@@ -1,0 +1,31 @@
+# Build a roman numerals program
+Arabic number - 1 to 10
+Convert to roman numerals
+
+User story, objects (nouns) and messages (verbs) - breaking the problem down
+Feature test in irb? Not necessarily needed for this complexity
+
+Strict TDD:
+Require a file that doesn't exist then get the error to say it doesn't exist - I jumped to creating the file already
+
+
+Breaking down the problem
+User story:
+As a person
+I want to be able to convert an Arabic number to a roman numeral
+So that I can converse with the romans
+
+Objects - Person, number
+Messages - convert (display)
+
+Need to perform a conversion on a number and transform it into a roman numeral
+Need to limit it to the numbers 1 to 10
+Need to test each number
+
+Still need to break the problem down further - what is the simplest thing you could look at?
+Zero - first step. Then look at the I's? Then the non-I's?
+Think about return values - always return a string?
+
+If I stuck to test driving properly, would go to I * number (for 1 to 3), then start to build in more rules
+
+Lessons: Step away from the code, break the problem down, look for patterns, write the simplest test and the simplest code to pass the test
